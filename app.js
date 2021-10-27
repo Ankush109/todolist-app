@@ -18,13 +18,13 @@ mongoose.connect("mongodb+srv://sohamkanji2001:ank123@ankush.9quzp.mongodb.net/t
  //create a mongoose model:-
  const Item =mongoose.model("Item",itemschema);
 const item1 =new Item({
-  name:"welcome to your todolist!"
+  name:"WILL SEE THE SYLLABUS TODAY"
 });
 const item2 =new Item({
-  name:"hit the + button to add a new file."
+  name:"WTF! HOW BIG IS THIS ,LETS START STUDYING :)"
 });
 const item3= new Item({
-  name:"<-- hit this to delete an item."
+  name:"WILL SURELY START STUDYING TOMORROW :3"
 });
 const defaultItems=[item1,item2,item3];
 const listschema ={
